@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F1F5F9;
+    min-width: 320px;
+}
+header{
+    background-color: white;
+    padding: 0.8rem 1.4rem;
+}
+.btn{
+    background-color: #0185d4;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    /* margin: 0 -1.4rem; */
+    text-align: right;
+    padding-left: 350px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 1.4rem;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #0185d4;
+    width: 100%;
+}
+/* header{ */
+    /* background-color: blue; */
+    /* height: 100px; */
+    /* position: inherit; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+/* } */
+.logo-wrap, .btn-wrap{
+    flex: 1;
+}
+.btn-wrap{
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* Home styling */
+.container-home{
+    margin: auto;
+    max-width: 1200px;
+    padding: 2rem;
+    /* min-height: 100vh; */
+}
+.item{
+    background-color: white;
+    line-height: 1.4;
+    color: #333;
+    border-radius: 0.5rem;
+    height: 350px;
+}
+.item img{
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.desc{
+    padding: 1rem 1.6rem 1.6rem;
+}
+
+span a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #9333ea;
+}
+
+.container-home{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 1rem;
+    /* row-gap: 1rem; */
+    /* column-gap: 2rem; */
+}
+
+.wrapper{
+    background-color: #3f424b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    line-height: 1.4;
+}
+.container-about{
+    max-width: 900px;
+    padding: 2rem;
+    margin: auto;
+}
+.item-about{
+    padding: 1.4rem;
+}
+h2{
+    margin: 0;
+    color: #67e8f9;
+}
+
+.container-about{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.container-products{
+    min-width: 600px;
+    min-height: 100vh;
+}
+.Item{
+    padding: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.more{
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 0.8rem;
+}
+.more::after{
+    position: absolute;
+    left: 0;
+}
+.more{
+    z-index: 1;
+}
+.more:hover{
+    color: #0eec4d;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/AI.jpg);
+}
+.two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/Art\ Intelligence.jpg);
+}
+.three{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/Art\ intelligencen.jpg);
+}
+.four{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/Art\ man.jpg);
+}
+.five{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/Artificial\ intelligence.jpg);
+}
+.six{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/cyber2.jpg);
+}
+.seven{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/cyber3.jpg);
+}
+.eight{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/data\ center.webp);
+}
+.nine{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./images/cyber.jpg);
+}
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h3{
+    color: #2589BD;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#pricing{
+    background-color: #FDF2F8;
+}
+h1{
+    margin: 0;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span .price{
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+#price{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 20px 0 0;
+    padding: 0;
+    height: 100px;
+}
+.wrapper-pre{
+    margin: 50px auto;
+    min-width: 720px;
+    max-width: 1300px;
+}
+.plan{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 50px -35px rgba(0, 0, 0, 0.75);
+}
+.plan:nth-child(odd){
+    background-color: #DB2777;
+    color: white;
+}
+.plan:nth-child(odd):hover{
+    background-color: #000;
+    color: white;
+}
+.plan:nth-child(even):hover{
+    background-color: #0de8e4;
+    color: white;
+}
+.container-price{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.plan{
+    flex-basis: 33.33%;
+    margin: 0 1rem;
+    /* align-items: center; */
+}
+

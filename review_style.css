@@ -1,0 +1,118 @@
+/* Generic styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f5f9;
+    color: #333;
+    line-height: 1.5;
+}
+ul{
+    background-color: #333;
+}
+ul li {
+    list-style-type: none;
+    font-size: 25px;
+}
+ul li a{
+    text-decoration: none;
+    background-color: #0ae7ea;
+    color: #fff;
+    border-radius: 7px;
+}
+.container{
+    min-height: 100vh;
+    background-color: #C7D2FE;
+    padding: 1rem;
+}
+.testimonial{
+    min-width: 200px;
+    max-width: 350px;
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+p{
+    margin-bottom: 0.8rem;
+}
+.testimonial:nth-child(even):hover{
+    background-color: #0ae7ea;
+    color: #fff;
+}
+.testimonial:nth-child(odd):hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    flex: 100%;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.container-form{
+    background-color: #919191;
+    padding-left: 30%;
+}
+form{
+    width: 500px;
+    background-color: #d3d5d6;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #5c0aea;
+    text-decoration: underline;
+}
+.input {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 20rem;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+.input:focus {
+    outline-color: lightcoral;
+   }
+label{
+    padding-top: 5px;
+}
+#nationality{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+.btn {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+.btn:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
+  
